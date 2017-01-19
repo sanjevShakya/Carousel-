@@ -1,0 +1,63 @@
+.carousel-wrapper {
+	margin: 0 auto;
+	width: 640px;
+	height: 480px;
+	overflow: hidden;
+	position: relative;
+	border-radius: 10px;
+}
+
+.images-wrapper img {
+	width: 640px;
+	height: 480px;
+	position: absolute;
+}
+
+.left-arrow {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	background: url("../images/slider-left.png") left center no-repeat;
+	width: 50px;
+}
+
+.right-arrow {
+	position: absolute;
+	background: url('../images/slider-right.png') right center no-repeat;
+	width: 50px;
+	top: 0;
+	bottom: 0;
+	left: 590px;
+}
+
+.left-arrow:hover {
+	cursor: pointer;
+	background: url("../images/slider-left-active.png") left center no-repeat;
+}
+
+.right-arrow:hover {
+	cursor: pointer;
+	background: url('../images/slider-right-active.png') right center no-repeat;
+}
+
+.bullets-container {
+	position: absolute;
+	
+	top:400px;
+	left: 25px;
+}
+
+.bullets-container span {
+	background: url('../images/bullet-inactive.png') center center no-repeat;
+	width: 20px;
+	height: 40px;
+	display: inline-block;
+	padding-left: 10px;
+}
+
+.bullets-container span:hover {
+	cursor: pointer;
+	background: url('../images/bullet-active.png') center center no-repeat;
+}
+
+
